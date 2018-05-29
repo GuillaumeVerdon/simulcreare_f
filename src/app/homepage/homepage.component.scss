@@ -1,0 +1,84 @@
+@import "../../variables";
+
+#welcome {
+    width: 100%;
+    height: 300px;
+
+    background-color: $third;
+}
+
+#welcome #text_container {
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url('assets/blurred_test.jpeg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#action_panel_container {
+    background-color: $fourth;
+    height: 185px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#homepage_buttons {
+    margin-top: 20px;
+}
+
+#homepage_under {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage_column {
+    padding: 10px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+// .action_panel {
+//     margin-left: 10px;
+//     margin-right: 10px;
+//     background-color: $primary;
+//     width: 145px;
+//     height: 100%;
+//     color: white;
+//     display: flex;
+//     text-align: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     border-bottom: 4px solid $primary;
+
+//     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+//   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+// }
+
+// .action_panel:hover {
+//     border-bottom: 4px solid $secondary;
+//     color: $secondary;
+//     cursor: pointer;
+    
+//     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+// }
+
+// .action {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .action i {
+//     font-size: 3em;
+//     margin-bottom: 5px;
+// }
