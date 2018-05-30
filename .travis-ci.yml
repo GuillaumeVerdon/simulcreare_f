@@ -1,0 +1,8 @@
+language: javascript
+addons:
+  sonarcloud:
+    organization: "GuillaumeVerdon"
+    token:
+      secure: ec41b31eb66323cef308dc0da5481229a345c080
+script:
+  - sonar-scanner
